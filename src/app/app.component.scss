@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: darkblue;
+  color: white;
+  padding: 1rem 4rem 1rem 4rem;
+  justify-content: space-between;
+
+  &__title {
+    justify-self: start;
+  }
+  &__theme-button {
+    justify-self: flex-end;
+  }
+}
