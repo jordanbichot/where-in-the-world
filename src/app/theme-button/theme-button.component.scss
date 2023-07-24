@@ -1,0 +1,13 @@
+.theme-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__icon {
+    cursor: pointer;
+  }
+
+  &__text {
+    cursor: default;
+  }
+}
